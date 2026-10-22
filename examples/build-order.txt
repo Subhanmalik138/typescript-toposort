@@ -1,0 +1,6 @@
+# One edge per line: A -> B means A runs before B. Lines starting with # are comments.
+compile-assets -> compile
+compile-assets -> lint
+compile -> test
+lint -> test
+test -> package
